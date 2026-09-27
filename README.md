@@ -187,11 +187,53 @@
 
 <h2 align="center">⚡ Contribution Journey</h2>
 
+<p align="center"><i>Every square is a real day of work — generated from my GitHub activity and refreshed automatically.</i></p>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/contrib3d/profile-purple.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/contrib3d/profile-purple.svg" />
+  <img width="100%" alt="3D contribution calendar" src="https://raw.githubusercontent.com/surendar-77/surendar-77/contrib3d/profile-purple.svg" />
+</picture>
+</div>
+
+<p align="center"><sub><b>🐍 Snake</b></sub></p>
+
 <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/snake-light.svg" />
   <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/surendar-77/surendar-77/output/snake-light.svg" />
+</picture>
+</div>
+
+<p align="center"><sub><b>🟡 Pac-Man</b></sub></p>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/pacman-contribution-graph.svg" />
+  <img width="100%" alt="Pac-Man eating my contributions" src="https://raw.githubusercontent.com/surendar-77/surendar-77/output/pacman-contribution-graph.svg" />
+</picture>
+</div>
+
+<p align="center"><sub><b>🚀 Galaga</b></sub></p>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/galaga-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/galaga-contribution-graph.svg" />
+  <img width="100%" alt="Galaga shooting my contributions" src="https://raw.githubusercontent.com/surendar-77/surendar-77/output/galaga-contribution-graph.svg" />
+</picture>
+</div>
+
+<p align="center"><sub><b>🧱 Breakout</b></sub></p>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/breakout-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/breakout-contribution-graph.svg" />
+  <img width="100%" alt="Breakout smashing my contributions" src="https://raw.githubusercontent.com/surendar-77/surendar-77/output/breakout-contribution-graph.svg" />
 </picture>
 </div>
 
