@@ -19,9 +19,16 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
+          # First dot color is the empty cell: a visible deep purple so the whole grid reads as filled.
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ef4444&color_dots=#161b22,#4c1010,#7f1d1d,#b91c1c,#ef4444
+            dist/github-contribution-grid-snake.svg?color_snake=#7e22ce&color_dots=#ede9fe,#d8b4fe,#c084fc,#a855f7,#7e22ce
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#e9d5ff&color_dots=#2e1065,#5b21b6,#7e22ce,#a855f7,#d8b4fe&color_background=#0b0613
+
+      - name: Speed up snake animation
+        # snk has no speed option, so scale every animation duration (keyframe percentages stay the same).
+        run: |
+          sudo chown -R "$(id -u)" dist
+          perl -pi -e 's/(\d+)ms/int($1 * 0.4) . "ms"/ge' dist/*.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4

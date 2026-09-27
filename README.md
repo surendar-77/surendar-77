@@ -4,38 +4,38 @@
 
 <p align="center">
   <a href="https://github.com/surendar-77">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=EF4444&center=true&vCenter=true&multiline=false&width=620&lines=Hi%20there%2C%20I'm%20Surendar%20G%20K%20%F0%9F%91%8B;AI%2FML%20Developer%20%F0%9F%A4%96;B.E.%20Artificial%20Intelligence%20%26%20Machine%20Learning;NLP%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning;IEEE%20Conference%20Paper%20Presenter%20%F0%9F%93%84" width="100%" style="max-width: 620px;" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=A855F7&center=true&vCenter=true&multiline=false&width=620&lines=Hi%20there%2C%20I'm%20Surendar%20G%20K%20%F0%9F%91%8B;AI%2FML%20Developer%20%F0%9F%A4%96;B.E.%20Artificial%20Intelligence%20%26%20Machine%20Learning;NLP%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning;IEEE%20Conference%20Paper%20Presenter%20%F0%9F%93%84" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/surendar-gk" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-DC2626?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0a" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-7E22CE?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=13091f" alt="LinkedIn" />
   </a>
   &nbsp;
   <a href="mailto:arosurendar@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact-DC2626?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0a" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-Contact-7E22CE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=13091f" alt="Email" />
   </a>
   &nbsp;
   <a href="https://github.com/surendar-77" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Follow-111111?style=for-the-badge&logo=github&logoColor=EF4444&labelColor=0a0a0a" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Follow-1e1033?style=for-the-badge&logo=github&logoColor=A855F7&labelColor=13091f" alt="GitHub" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=surendar-77&label=PROFILE%20VIEWS&color=dc2626&style=for-the-badge" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=surendar-77&label=PROFILE%20VIEWS&color=a855f7&style=for-the-badge" alt="Profile Views" />
 </p>
 
 ---
 
-<h2 align="center">🔴 About Me</h2>
+<h2 align="center">🟣 About Me</h2>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1000&color=F87171&center=true&vCenter=true&multiline=false&width=600&lines=Turning+data+into+intelligent+solutions." width="100%" style="max-width: 600px;" alt="Typing Quote" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=3000&pause=1000&color=C084FC&center=true&vCenter=true&multiline=false&width=600&lines=Turning+data+into+intelligent+solutions." alt="Typing Quote" />
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="340" style="max-width: 100%; border-radius: 12px;" alt="Developer coding animation" />
+  <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="300" alt="Developer coding animation" />
 </p>
 
 <p align="center">
@@ -44,15 +44,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-🟢_Building_%26_Learning-111111?style=flat-square" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-🟢_Building_%26_Learning-1e1033?style=flat-square" alt="Status" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Degree-B.E._AI_%26_ML-DC2626?style=flat-square" alt="Degree" />
+  <img src="https://img.shields.io/badge/Degree-B.E._AI_%26_ML-7E22CE?style=flat-square" alt="Degree" />
   &nbsp;
-  <img src="https://img.shields.io/badge/SGPA-8.2-111111?style=flat-square" alt="SGPA" />
+  <img src="https://img.shields.io/badge/SGPA-8.2-1e1033?style=flat-square" alt="SGPA" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Graduating-May_2027-DC2626?style=flat-square" alt="Graduating" />
+  <img src="https://img.shields.io/badge/Graduating-May_2027-7E22CE?style=flat-square" alt="Graduating" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Location-Bengaluru,_India-111111?style=flat-square" alt="Location" />
+  <img src="https://img.shields.io/badge/Location-Bengaluru,_India-1e1033?style=flat-square" alt="Location" />
 </p>
 
 <p align="center">
@@ -85,7 +85,7 @@
 
 ---
 
-<h2 align="center">🔴 Featured Projects</h2>
+<h2 align="center">🟣 Featured Projects</h2>
 
 <table width="100%" border="0" align="center">
   <tr>
@@ -97,11 +97,11 @@
         <b>85–87%</b> keyword identification accuracy · <b>~80–85%</b> reduction in miscommunication
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=EF4444" alt="Python" />
-        <img src="https://img.shields.io/badge/Flask-0a0a0a?style=flat-square&logo=flask&logoColor=EF4444" alt="Flask" />
-        <img src="https://img.shields.io/badge/NLP-0a0a0a?style=flat-square" alt="NLP" />
-        <img src="https://img.shields.io/badge/Speech_Recognition-0a0a0a?style=flat-square" alt="Speech Recognition" />
-        <img src="https://img.shields.io/badge/TTS-0a0a0a?style=flat-square" alt="TTS" />
+        <img src="https://img.shields.io/badge/Python-13091f?style=flat-square&logo=python&logoColor=A855F7" alt="Python" />
+        <img src="https://img.shields.io/badge/Flask-13091f?style=flat-square&logo=flask&logoColor=A855F7" alt="Flask" />
+        <img src="https://img.shields.io/badge/NLP-13091f?style=flat-square" alt="NLP" />
+        <img src="https://img.shields.io/badge/Speech_Recognition-13091f?style=flat-square" alt="Speech Recognition" />
+        <img src="https://img.shields.io/badge/TTS-13091f?style=flat-square" alt="TTS" />
       </p>
     </td>
   </tr>
@@ -114,11 +114,11 @@
         Presented at an <b>IEEE conference</b>.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/Python-0a0a0a?style=flat-square&logo=python&logoColor=EF4444" alt="Python" />
-        <img src="https://img.shields.io/badge/YOLO-0a0a0a?style=flat-square" alt="YOLO" />
-        <img src="https://img.shields.io/badge/PyTorch-0a0a0a?style=flat-square&logo=pytorch&logoColor=EF4444" alt="PyTorch" />
-        <img src="https://img.shields.io/badge/scikit--learn-0a0a0a?style=flat-square&logo=scikit-learn&logoColor=EF4444" alt="scikit-learn" />
-        <img src="https://img.shields.io/badge/OpenCV-0a0a0a?style=flat-square&logo=opencv&logoColor=EF4444" alt="OpenCV" />
+        <img src="https://img.shields.io/badge/Python-13091f?style=flat-square&logo=python&logoColor=A855F7" alt="Python" />
+        <img src="https://img.shields.io/badge/YOLO-13091f?style=flat-square" alt="YOLO" />
+        <img src="https://img.shields.io/badge/PyTorch-13091f?style=flat-square&logo=pytorch&logoColor=A855F7" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/scikit--learn-13091f?style=flat-square&logo=scikit-learn&logoColor=A855F7" alt="scikit-learn" />
+        <img src="https://img.shields.io/badge/OpenCV-13091f?style=flat-square&logo=opencv&logoColor=A855F7" alt="OpenCV" />
       </p>
     </td>
   </tr>
@@ -130,9 +130,9 @@
         Led the technical team, built and deployed the platform with React.js and Node.js, integrated Razorpay for ticket and event-fee collection, and handled live troubleshooting during the fest.
       </p>
       <p>
-        <img src="https://img.shields.io/badge/React-0a0a0a?style=flat-square&logo=react&logoColor=EF4444" alt="React" />
-        <img src="https://img.shields.io/badge/Node.js-0a0a0a?style=flat-square&logo=nodedotjs&logoColor=EF4444" alt="Node.js" />
-        <img src="https://img.shields.io/badge/Razorpay-0a0a0a?style=flat-square&logo=razorpay&logoColor=EF4444" alt="Razorpay" />
+        <img src="https://img.shields.io/badge/React-13091f?style=flat-square&logo=react&logoColor=A855F7" alt="React" />
+        <img src="https://img.shields.io/badge/Node.js-13091f?style=flat-square&logo=nodedotjs&logoColor=A855F7" alt="Node.js" />
+        <img src="https://img.shields.io/badge/Razorpay-13091f?style=flat-square&logo=razorpay&logoColor=A855F7" alt="Razorpay" />
       </p>
     </td>
   </tr>
@@ -140,7 +140,7 @@
 
 <p align="center">
   <a href="https://github.com/surendar-77?tab=repositories" target="_blank">
-    <img src="https://img.shields.io/badge/Source%20Code-💻%20View%20Repositories-111111?style=for-the-badge&logo=github&logoColor=EF4444&labelColor=0a0a0a" alt="View Repositories" />
+    <img src="https://img.shields.io/badge/Source%20Code-💻%20View%20Repositories-1e1033?style=for-the-badge&logo=github&logoColor=A855F7&labelColor=13091f" alt="View Repositories" />
   </a>
 </p>
 
@@ -148,48 +148,26 @@
 
 <h2 align="center">🛠️ Tech Stack &amp; Skills</h2>
 
-<p align="center"><b>Programming Languages</b></p>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,js,html,css,c,cpp&theme=dark" width="100%" style="max-width: 360px;" alt="Languages" />
-  </a>
-</p>
-
-<p align="center"><b>Frontend, Backend &amp; Frameworks</b></p>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nodejs,flask&theme=dark" width="100%" style="max-width: 180px;" alt="Frontend and Backend" />
-  </a>
-</p>
-
-<p align="center"><b>AI / ML &amp; Computer Vision</b></p>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pytorch,sklearn,opencv&theme=dark" width="100%" style="max-width: 180px;" alt="AI and ML" />
-  </a>
-</p>
-
-<p align="center"><b>Cloud, DevOps, IoT &amp; Tools</b></p>
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=aws,docker,arduino,git,github,vscode&theme=dark" width="100%" style="max-width: 360px;" alt="Cloud, DevOps and Tools" />
+    <img src="https://skillicons.dev/icons?i=py,js,html,css,c,cpp,react,nodejs,flask,pytorch,sklearn,opencv,aws,docker,arduino,git,github,vscode&perline=9&theme=dark" width="400" alt="Tech Stack" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NumPy-0a0a0a?style=for-the-badge&logo=numpy&logoColor=EF4444" alt="NumPy" />
-  <img src="https://img.shields.io/badge/Pandas-0a0a0a?style=for-the-badge&logo=pandas&logoColor=EF4444" alt="Pandas" />
-  <img src="https://img.shields.io/badge/Matplotlib-0a0a0a?style=for-the-badge&logo=python&logoColor=EF4444" alt="Matplotlib" />
-  <img src="https://img.shields.io/badge/NLTK-0a0a0a?style=for-the-badge&logo=python&logoColor=EF4444" alt="NLTK" />
-  <img src="https://img.shields.io/badge/Hugging_Face-0a0a0a?style=for-the-badge&logo=huggingface&logoColor=EF4444" alt="Hugging Face" />
-  <img src="https://img.shields.io/badge/Ollama-0a0a0a?style=for-the-badge&logo=ollama&logoColor=EF4444" alt="Ollama" />
-  <img src="https://img.shields.io/badge/RAG-0a0a0a?style=for-the-badge" alt="RAG" />
-  <img src="https://img.shields.io/badge/Roboflow-0a0a0a?style=for-the-badge" alt="Roboflow" />
-  <img src="https://img.shields.io/badge/SQL-0a0a0a?style=for-the-badge" alt="SQL" />
-  <img src="https://img.shields.io/badge/ESP32-0a0a0a?style=for-the-badge&logo=espressif&logoColor=EF4444" alt="ESP32" />
-  <img src="https://img.shields.io/badge/n8n-0a0a0a?style=for-the-badge&logo=n8n&logoColor=EF4444" alt="n8n" />
-  <img src="https://img.shields.io/badge/Jupyter-0a0a0a?style=for-the-badge&logo=jupyter&logoColor=EF4444" alt="Jupyter" />
-  <img src="https://img.shields.io/badge/Google_Colab-0a0a0a?style=for-the-badge&logo=googlecolab&logoColor=EF4444" alt="Google Colab" />
+  <img src="https://img.shields.io/badge/NumPy-13091f?style=flat-square&logo=numpy&logoColor=A855F7" alt="NumPy" />
+  <img src="https://img.shields.io/badge/Pandas-13091f?style=flat-square&logo=pandas&logoColor=A855F7" alt="Pandas" />
+  <img src="https://img.shields.io/badge/Matplotlib-13091f?style=flat-square&logo=python&logoColor=A855F7" alt="Matplotlib" />
+  <img src="https://img.shields.io/badge/NLTK-13091f?style=flat-square&logo=python&logoColor=A855F7" alt="NLTK" />
+  <img src="https://img.shields.io/badge/Hugging_Face-13091f?style=flat-square&logo=huggingface&logoColor=A855F7" alt="Hugging Face" />
+  <img src="https://img.shields.io/badge/Ollama-13091f?style=flat-square&logo=ollama&logoColor=A855F7" alt="Ollama" />
+  <img src="https://img.shields.io/badge/RAG-13091f?style=flat-square" alt="RAG" />
+  <img src="https://img.shields.io/badge/Roboflow-13091f?style=flat-square" alt="Roboflow" />
+  <img src="https://img.shields.io/badge/SQL-13091f?style=flat-square" alt="SQL" />
+  <img src="https://img.shields.io/badge/ESP32-13091f?style=flat-square&logo=espressif&logoColor=A855F7" alt="ESP32" />
+  <img src="https://img.shields.io/badge/n8n-13091f?style=flat-square&logo=n8n&logoColor=A855F7" alt="n8n" />
+  <img src="https://img.shields.io/badge/Jupyter-13091f?style=flat-square&logo=jupyter&logoColor=A855F7" alt="Jupyter" />
+  <img src="https://img.shields.io/badge/Google_Colab-13091f?style=flat-square&logo=googlecolab&logoColor=A855F7" alt="Google Colab" />
 </p>
 
 ---
@@ -201,15 +179,15 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/IBM-Cybersecurity_Tools_%26_Cyberattacks-111111?style=flat-square&logo=ibm&logoColor=EF4444" alt="IBM Cybersecurity" />
-  <img src="https://img.shields.io/badge/IBM-Operating_Systems_%26_Security-111111?style=flat-square&logo=ibm&logoColor=EF4444" alt="IBM Operating Systems" />
-  <img src="https://img.shields.io/badge/IBM-Computer_Networks_%26_Network_Security-111111?style=flat-square&logo=ibm&logoColor=EF4444" alt="IBM Networks" />
-  <img src="https://img.shields.io/badge/IBM-Penetration_Testing_%26_Cryptography-111111?style=flat-square&logo=ibm&logoColor=EF4444" alt="IBM Penetration Testing" />
+  <img src="https://img.shields.io/badge/IBM-Cybersecurity_Tools_%26_Cyberattacks-1e1033?style=flat-square&logo=ibm&logoColor=A855F7" alt="IBM Cybersecurity" />
+  <img src="https://img.shields.io/badge/IBM-Operating_Systems_%26_Security-1e1033?style=flat-square&logo=ibm&logoColor=A855F7" alt="IBM Operating Systems" />
+  <img src="https://img.shields.io/badge/IBM-Computer_Networks_%26_Network_Security-1e1033?style=flat-square&logo=ibm&logoColor=A855F7" alt="IBM Networks" />
+  <img src="https://img.shields.io/badge/IBM-Penetration_Testing_%26_Cryptography-1e1033?style=flat-square&logo=ibm&logoColor=A855F7" alt="IBM Penetration Testing" />
   <br />
-  <img src="https://img.shields.io/badge/LinkedIn_Learning-ML_Statistical_Foundations-DC2626?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Learning" />
-  <img src="https://img.shields.io/badge/Microsoft-UI%2FUX_Design_Fundamentals-DC2626?style=flat-square" alt="Microsoft UI/UX" />
-  <img src="https://img.shields.io/badge/Anaconda-Python_for_Data_Science-DC2626?style=flat-square&logo=anaconda&logoColor=white" alt="Anaconda" />
-  <img src="https://img.shields.io/badge/Astronomer-Data_Engineering_Foundations-DC2626?style=flat-square" alt="Astronomer" />
+  <img src="https://img.shields.io/badge/LinkedIn_Learning-ML_Statistical_Foundations-7E22CE?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn Learning" />
+  <img src="https://img.shields.io/badge/Microsoft-UI%2FUX_Design_Fundamentals-7E22CE?style=flat-square" alt="Microsoft UI/UX" />
+  <img src="https://img.shields.io/badge/Anaconda-Python_for_Data_Science-7E22CE?style=flat-square&logo=anaconda&logoColor=white" alt="Anaconda" />
+  <img src="https://img.shields.io/badge/Astronomer-Data_Engineering_Foundations-7E22CE?style=flat-square" alt="Astronomer" />
 </p>
 
 ---
@@ -217,17 +195,17 @@
 <h2 align="center">📊 GitHub Analytics &amp; Activity</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=surendar-77&show_icons=true&bg_color=0a0a0a&title_color=ef4444&text_color=f3f4f6&icon_color=ef4444&border_color=ef4444" width="100%" style="max-width: 440px;" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=surendar-77&show_icons=true&bg_color=0b0613&title_color=c084fc&text_color=e9d5ff&icon_color=a855f7&border_color=a855f7" height="165" alt="GitHub Stats" />
   &nbsp;
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=surendar-77&layout=compact&bg_color=0a0a0a&title_color=ef4444&text_color=f3f4f6&border_color=ef4444" width="100%" style="max-width: 350px;" alt="Top Languages" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=surendar-77&layout=compact&bg_color=0b0613&title_color=c084fc&text_color=e9d5ff&border_color=a855f7" height="165" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=surendar-77&theme=blood&hide_border=false&border=ef4444&background=0a0a0a&ring=ef4444&fire=ef4444&currStreakLabel=ef4444" width="100%" style="max-width: 480px;" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=surendar-77&hide_border=false&border=a855f7&background=0b0613&stroke=a855f7&ring=a855f7&fire=c084fc&currStreakNum=f5f3ff&sideNums=f5f3ff&currStreakLabel=c084fc&sideLabels=e9d5ff&dates=a1a1aa" width="460" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="assets/quote.svg" width="100%" style="max-width: 720px;" alt="Quote" />
+  <img src="assets/quote.svg" width="600" alt="Quote" />
 </p>
 
 ---
@@ -250,7 +228,7 @@
       <a href="https://www.linkedin.com/in/surendar-gk" target="_blank">
         <img src="https://skillicons.dev/icons?i=linkedin" width="60" height="60" alt="LinkedIn" />
         <br /><br />
-        <img src="https://img.shields.io/badge/LinkedIn-Connect-DC2626?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a0a" alt="LinkedIn" />
+        <img src="https://img.shields.io/badge/LinkedIn-Connect-7E22CE?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=13091f" alt="LinkedIn" />
       </a>
       <br />
       <sub><b>Professional Network</b></sub>
@@ -259,7 +237,7 @@
       <a href="mailto:arosurendar@gmail.com">
         <img src="https://skillicons.dev/icons?i=gmail" width="60" height="60" alt="Gmail" />
         <br /><br />
-        <img src="https://img.shields.io/badge/Email-Contact_Me-DC2626?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0a0a0a" alt="Email" />
+        <img src="https://img.shields.io/badge/Email-Contact_Me-7E22CE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=13091f" alt="Email" />
       </a>
       <br />
       <sub><b>Direct Collaboration</b></sub>
@@ -268,7 +246,7 @@
       <a href="https://github.com/surendar-77" target="_blank">
         <img src="https://skillicons.dev/icons?i=github" width="60" height="60" alt="GitHub" />
         <br /><br />
-        <img src="https://img.shields.io/badge/GitHub-Follow-DC2626?style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a0a" alt="GitHub" />
+        <img src="https://img.shields.io/badge/GitHub-Follow-7E22CE?style=for-the-badge&logo=github&logoColor=white&labelColor=13091f" alt="GitHub" />
       </a>
       <br />
       <sub><b>Code &amp; Projects</b></sub>

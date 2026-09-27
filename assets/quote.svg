@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="720" height="150" viewBox="0 0 720 150" role="img" aria-label="Quote: Data is the fuel, models are the engine, and impact is the destination.">
   <defs>
     <linearGradient id="qbg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0a0a0a"/>
-      <stop offset="100%" stop-color="#170707"/>
+      <stop offset="0%" stop-color="#0b0613"/>
+      <stop offset="100%" stop-color="#1c0b33"/>
     </linearGradient>
     <style>
-      .q { font: 500 20px 'Fira Code', Consolas, 'Courier New', monospace; fill: #f3f4f6; }
-      .hl { fill: #ef4444; font-weight: 700; }
-      .mark { font: 700 64px Georgia, 'Times New Roman', serif; fill: #ef4444; opacity: .35; }
-      .by { font: 400 13px 'Fira Code', Consolas, monospace; fill: #9ca3af; letter-spacing: 2px; }
+      .q { font: 500 20px 'Fira Code', Consolas, 'Courier New', monospace; fill: #f5f3ff; }
+      .hl { fill: #c084fc; font-weight: 700; }
+      .mark { font: 700 64px Georgia, 'Times New Roman', serif; fill: #a855f7; opacity: .4; }
+      .by { font: 400 13px 'Fira Code', Consolas, monospace; fill: #a1a1aa; letter-spacing: 2px; }
       .l1 { opacity: 0; animation: in 1s ease-out .2s forwards; }
       .l2 { opacity: 0; animation: in 1s ease-out .8s forwards; }
       .l3 { opacity: 0; animation: in 1s ease-out 1.4s forwards; }
@@ -18,11 +18,11 @@
     </style>
   </defs>
   <rect width="720" height="150" rx="14" fill="url(#qbg)"/>
-  <rect x="1" y="1" width="718" height="148" rx="13" fill="none" stroke="#ef4444" stroke-opacity=".4" stroke-width="2"/>
-  <text class="mark" x="28" y="70">“</text>
-  <text class="mark" x="660" y="130">”</text>
+  <rect x="1" y="1" width="718" height="148" rx="13" fill="none" stroke="#a855f7" stroke-opacity=".5" stroke-width="2"/>
+  <text class="mark" x="28" y="70">&#8220;</text>
+  <text class="mark" x="660" y="130">&#8221;</text>
   <text class="q l1" x="360" y="62" text-anchor="middle">Data is the <tspan class="hl">fuel</tspan>, models are the <tspan class="hl">engine</tspan>,</text>
   <text class="q l2" x="360" y="92" text-anchor="middle">and <tspan class="hl">impact</tspan> is the destination.</text>
-  <rect class="bar" x="260" y="108" width="200" height="2" fill="#ef4444"/>
-  <text class="by l3" x="360" y="132" text-anchor="middle">— SURENDAR G K</text>
+  <rect class="bar" x="260" y="108" width="200" height="2" fill="#a855f7"/>
+  <text class="by l3" x="360" y="132" text-anchor="middle">&#8212; SURENDAR G K</text>
 </svg>
