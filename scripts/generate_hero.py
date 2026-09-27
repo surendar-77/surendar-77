@@ -2,11 +2,13 @@
 """
 Generate the animated terminal-style hero banner (assets/hero-dark.svg, assets/hero-light.svg).
 
-Left panel: the panther silhouette rebuilt from particles that fly in and assemble.
+Left panel: particles that hold the panther silhouette, then morph through stack logos
+(Python, PyTorch, </>, OpenCV) every few seconds and back, on a loop.
 Right panel: a "./profile.sh --live" readout whose lines type out one by one.
 
 Run locally when the details change:  pip install resvg-py pillow && python scripts/generate_hero.py
 Panther silhouette: "Vintage Heraldic Panther Silhouette", Wikimedia Commons, CC0.
+Logos in assets/morph: Simple Icons (CC0).
 """
 import html
 import io
@@ -65,28 +67,48 @@ THEMES = {
 
 # particle map area (left panel)
 MAP_X, MAP_Y, MAP_W, MAP_H = 36, 84, 400, 492
-STEP = 8
+N_PARTICLES = 720
+
+# Morph cycle: panther -> stack logos -> panther. Logos: Simple Icons (CC0), code glyph drawn here.
+MORPH = os.path.join(ASSETS, "morph")
+SHAPES = [
+    (PANTHER, MAP_W - 40, MAP_H - 40),
+    (os.path.join(MORPH, "python.svg"), 290, 290),
+    (os.path.join(MORPH, "pytorch.svg"), 290, 290),
+    (os.path.join(MORPH, "code.svg"), 320, 320),
+    (os.path.join(MORPH, "opencv.svg"), 290, 290),
+]
+MOVE, HOLD = 0.9, 2.1  # seconds per transition / per pose
 
 
-def panther_points():
-    """Sample the silhouette on a grid; return (x, y) centres of filled cells."""
-    src = open(PANTHER, encoding="utf-8").read()
+def shape_pixels(path, box_w, box_h):
+    """Render an SVG into the map area and return every filled pixel (x, y)."""
+    src = open(path, encoding="utf-8").read()
     vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', src).group(1).split()]
-    vw, vh = vb[2], vb[3]
-    scale = min((MAP_W - 40) / vw, (MAP_H - 40) / vh)
-    rw, rh = int(vw * scale), int(vh * scale)
+    scale = min(box_w / vb[2], box_h / vb[3])
+    rw, rh = int(vb[2] * scale), int(vb[3] * scale)
     png = bytes(resvg_py.svg_to_bytes(svg_string=src, width=rw, height=rh))
-    img = Image.open(io.BytesIO(png)).convert("RGBA")
-    w, h = img.size
-    alpha = img.getchannel("A")
-    ox = MAP_X + (MAP_W - w) / 2
-    oy = MAP_Y + (MAP_H - h) / 2
-    pts = []
-    for y in range(STEP // 2, h, STEP):
-        for x in range(STEP // 2, w, STEP):
-            if alpha.getpixel((x, y)) > 100:
-                pts.append((ox + x, oy + y))
-    return pts
+    alpha = Image.open(io.BytesIO(png)).convert("RGBA").getchannel("A")
+    ox = MAP_X + (MAP_W - rw) / 2
+    oy = MAP_Y + (MAP_H - rh) / 2
+    filled = {(x, y) for y in range(rh) for x in range(rw) if alpha.getpixel((x, y)) > 128}
+    edge = [p for p in filled if any((p[0] + dx, p[1] + dy) not in filled for dx, dy in ((2, 0), (-2, 0), (0, 2), (0, -2)))]
+    to_map = lambda pts: [(ox + x, oy + y) for x, y in pts]
+    return to_map(sorted(filled)), to_map(sorted(edge))
+
+
+def shape_targets(rnd):
+    """N_PARTICLES target points per shape, ordered top-to-bottom so morphs flow instead of scrambling."""
+    targets = []
+    for path, bw, bh in SHAPES:
+        fill, edge = shape_pixels(path, bw, bh)
+        # half the particles trace the outline so logos stay recognisable, half fill the body
+        n_edge = N_PARTICLES // 2
+        pts = rnd.sample(edge, min(n_edge, len(edge)))
+        pts += rnd.sample(fill, N_PARTICLES - len(pts))
+        pts.sort(key=lambda p: (round(p[1] / 12), p[0]))
+        targets.append(pts)
+    return targets
 
 
 def esc(s):
@@ -136,22 +158,44 @@ def build(theme):
     a(f'<rect x="{fx0 + 1}" y="{fy0}" width="{MAP_W - 2}" height="2" fill="{t["ACCENT"]}" opacity="0.35">'
       f'<animate attributeName="y" values="{fy0};{fy1 - 2};{fy0}" dur="6s" repeatCount="indefinite"/></rect>')
 
-    pts = panther_points()
-    ys = [p[1] for p in pts]
-    ymin, ymax = min(ys), max(ys)
-    a('<g filter="url(#glow)">')
-    for (x, y) in pts:
-        shade = t["DOTS"][min(4, int((y - ymin) / (ymax - ymin + 1) * 5))]
-        sx = rnd.uniform(fx0, fx1)
-        sy = rnd.uniform(fy0, fy1)
-        delay = 0.2 + rnd.uniform(0, 1.2)
-        r = 2.9 if rnd.random() > 0.15 else 2.0
-        tw = rnd.uniform(2.5, 5)
-        a(f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="{r}" fill="{shade}" opacity="0">'
-          f'<animate attributeName="cx" from="{sx:.1f}" to="{x:.1f}" begin="{delay:.2f}s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/>'
-          f'<animate attributeName="cy" from="{sy:.1f}" to="{y:.1f}" begin="{delay:.2f}s" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/>'
-          f'<animate attributeName="opacity" values="0;1;0.55;1" keyTimes="0;0.3;0.65;1" begin="{delay:.2f}s" dur="{tw:.1f}s" fill="freeze"/>'
-          '</circle>')
+    n = len(SHAPES)
+    cycle = n * (MOVE + HOLD)
+    times, splines = [0.0], []
+    for k in range(n):
+        base = k * (MOVE + HOLD)
+        times += [base + HOLD, base + HOLD + MOVE]
+        splines += ["0 0 1 1", "0.45 0 0.2 1"]
+    kt = ";".join(f"{x / cycle:.4f}" for x in times)
+    ks = ";".join(splines)
+    targets = shape_targets(rnd)
+    # crisp panther underlay, visible while the particles hold the panther pose
+    fade_out = HOLD / cycle
+    fade_in = (cycle - 0.25) / cycle
+    a(f'<g opacity="0.55"><g opacity="1">'
+      f'<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;{fade_out:.4f};{(HOLD + 0.35) / cycle:.4f};{fade_in:.4f};1" '
+      f'dur="{cycle:.1f}s" begin="0.6s" repeatCount="indefinite"/>')
+    src = open(PANTHER, encoding="utf-8").read()
+    vb = [float(v) for v in re.search(r'viewBox="([^"]+)"', src).group(1).split()]
+    ps = min((MAP_W - 40) / vb[2], (MAP_H - 40) / vb[3])
+    px0 = MAP_X + (MAP_W - vb[2] * ps) / 2
+    py0 = MAP_Y + (MAP_H - vb[3] * ps) / 2
+    body = "".join(f'<path d="{d}"/>' for d in re.findall(r'<path[^>]*\sd="([^"]+)"', src))
+    a(f'<g transform="translate({px0:.1f},{py0:.1f}) scale({ps:.5f})" fill="{t["DOTS"][3]}">{body}</g></g></g>')
+
+    a('<defs>' + "".join(f'<circle id="p{c}" r="1.7" fill="{col}"/>' for c, col in enumerate(t["DOTS"])) + '</defs>')
+    a('<g filter="url(#glow)" opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.2s" dur="1s" fill="freeze"/>')
+    for i in range(N_PARTICLES):
+        seq = [targets[k][i] for k in range(n)]
+        vals = [seq[0]]
+        for k in range(n):
+            nxt = seq[(k + 1) % n]
+            vals += [seq[k], nxt]
+        vals = ";".join(f"{x:.0f} {y:.0f}" for x, y in vals)
+        sx, sy = rnd.uniform(MAP_X, MAP_X + MAP_W), rnd.uniform(MAP_Y, MAP_Y + MAP_H)
+        shade = min(4, int((seq[0][1] - MAP_Y) / MAP_H * 5))
+        a(f'<use href="#p{shade}" transform="translate({sx:.0f} {sy:.0f})">'
+          f'<animateTransform attributeName="transform" type="translate" values="{vals}" keyTimes="{kt}" '
+          f'calcMode="spline" keySplines="{ks}" dur="{cycle:.1f}s" begin="0.6s" repeatCount="indefinite"/></use>')
     a('</g>')
 
     # right: system info
