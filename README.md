@@ -2,6 +2,12 @@
   <img src="assets/header.svg" width="100%" alt="Surendar G K Header" />
 </p>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/main/assets/hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/main/assets/hero-light.svg" />
+  <img width="100%" alt="Surendar G K - profile.sh --live" src="https://raw.githubusercontent.com/surendar-77/surendar-77/main/assets/hero-light.svg" />
+</picture>
+
 <p align="center">
   <a href="https://github.com/surendar-77">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2800&pause=1000&color=A855F7&center=true&vCenter=true&multiline=false&width=620&lines=Hi%20there%2C%20I'm%20Surendar%20G%20K%20%F0%9F%91%8B;AI%2FML%20Developer%20%F0%9F%A4%96;B.E.%20Artificial%20Intelligence%20%26%20Machine%20Learning;NLP%20%C2%B7%20Computer%20Vision%20%C2%B7%20Deep%20Learning;IEEE%20Conference%20Paper%20Presenter%20%F0%9F%93%84" alt="Typing SVG" />
@@ -15,6 +21,10 @@
   &nbsp;
   <a href="mailto:arosurendar@gmail.com">
     <img src="https://img.shields.io/badge/Email-Contact-7E22CE?style=for-the-badge&logo=gmail&logoColor=white&labelColor=13091f" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://my-portfolio-eta-tawny-13.vercel.app" target="_blank">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-7E22CE?style=for-the-badge&logo=vercel&logoColor=white&labelColor=13091f" alt="Portfolio" />
   </a>
   &nbsp;
   <a href="https://github.com/surendar-77" target="_blank">
@@ -87,56 +97,11 @@
 
 <h2 align="center">🟣 Featured Projects</h2>
 
-<table width="100%" border="0" align="center">
-  <tr>
-    <td align="center" style="padding: 22px;">
-      <h3>🩺 MAAYAVAN — AI Medical Voice Assistant</h3>
-      <p><i>An AI-powered voice assistant that bridges communication gaps caused by regional dialect differences between patients and doctors.</i></p>
-      <p>
-        Dialect-normalizing NLP pipeline: speech-to-text, dialect-to-English translation, symptom extraction, intensity detection, negation handling and medical term mapping, with multilingual TTS replies.<br />
-        <b>85–87%</b> keyword identification accuracy · <b>~80–85%</b> reduction in miscommunication
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-13091f?style=flat-square&logo=python&logoColor=A855F7" alt="Python" />
-        <img src="https://img.shields.io/badge/Flask-13091f?style=flat-square&logo=flask&logoColor=A855F7" alt="Flask" />
-        <img src="https://img.shields.io/badge/NLP-13091f?style=flat-square" alt="NLP" />
-        <img src="https://img.shields.io/badge/Speech_Recognition-13091f?style=flat-square" alt="Speech Recognition" />
-        <img src="https://img.shields.io/badge/TTS-13091f?style=flat-square" alt="TTS" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 22px;">
-      <h3>🔥 UAV-Based Early Forest Fire &amp; Smoke Prediction System</h3>
-      <p><i>A dual-domain framework combining YOLO-based visual fire/smoke detection with a Random Forest model for environmental fire-risk prediction.</i></p>
-      <p>
-        YOLO26 trained on <b>46,000</b> augmented images, significantly improving on a DETR baseline · Random Forest risk model with <b>89.5%</b> accuracy (High / Medium / Low) · four-level alert system (ALL CLEAR / WARNING / ALERT / CRITICAL).<br />
-        Presented at an <b>IEEE conference</b>.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/Python-13091f?style=flat-square&logo=python&logoColor=A855F7" alt="Python" />
-        <img src="https://img.shields.io/badge/YOLO-13091f?style=flat-square" alt="YOLO" />
-        <img src="https://img.shields.io/badge/PyTorch-13091f?style=flat-square&logo=pytorch&logoColor=A855F7" alt="PyTorch" />
-        <img src="https://img.shields.io/badge/scikit--learn-13091f?style=flat-square&logo=scikit-learn&logoColor=A855F7" alt="scikit-learn" />
-        <img src="https://img.shields.io/badge/OpenCV-13091f?style=flat-square&logo=opencv&logoColor=A855F7" alt="OpenCV" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" style="padding: 22px;">
-      <h3>🎟️ College Fest Platform — Technical Lead</h3>
-      <p><i>A full-stack event registration platform for the college fest with secure online payments.</i></p>
-      <p>
-        Led the technical team, built and deployed the platform with React.js and Node.js, integrated Razorpay for ticket and event-fee collection, and handled live troubleshooting during the fest.
-      </p>
-      <p>
-        <img src="https://img.shields.io/badge/React-13091f?style=flat-square&logo=react&logoColor=A855F7" alt="React" />
-        <img src="https://img.shields.io/badge/Node.js-13091f?style=flat-square&logo=nodedotjs&logoColor=A855F7" alt="Node.js" />
-        <img src="https://img.shields.io/badge/Razorpay-13091f?style=flat-square&logo=razorpay&logoColor=A855F7" alt="Razorpay" />
-      </p>
-    </td>
-  </tr>
-</table>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/projects/projects-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/projects/projects-light.svg" />
+  <img width="100%" alt="Projects" src="https://raw.githubusercontent.com/surendar-77/surendar-77/projects/projects-light.svg" />
+</picture>
 
 <p align="center">
   <a href="https://github.com/surendar-77?tab=repositories" target="_blank">
@@ -194,15 +159,25 @@
 
 <h2 align="center">📊 GitHub Analytics &amp; Activity</h2>
 
-<p align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=surendar-77&show_icons=true&bg_color=0b0613&title_color=c084fc&text_color=e9d5ff&icon_color=a855f7&border_color=a855f7" height="165" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=surendar-77&layout=compact&bg_color=0b0613&title_color=c084fc&text_color=e9d5ff&border_color=a855f7" height="165" alt="Top Languages" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=surendar-77&hide_border=false&border=a855f7&background=0b0613&stroke=a855f7&ring=a855f7&fire=c084fc&currStreakNum=f5f3ff&sideNums=f5f3ff&currStreakLabel=c084fc&sideLabels=e9d5ff&dates=a1a1aa" width="460" alt="GitHub Streak" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=surendar-77&hide_border=true&background=0B0613&stroke=A855F7&ring=C084FC&fire=F0ABFC&currStreakLabel=C084FC&sideLabels=A1A1AA&currStreakNum=F5F3FF&sideNums=F5F3FF&dates=71717A&card_width=1180" />
+  <img width="100%" alt="GitHub streak" src="https://streak-stats.demolab.com/?user=surendar-77&hide_border=true&background=FAF5FF&stroke=7E22CE&ring=9333EA&fire=C026D3&currStreakLabel=7E22CE&sideLabels=52525B&currStreakNum=1E1033&sideNums=1E1033&dates=A1A1AA&card_width=1180" />
+</picture>
+
+<br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=surendar-77&show_icons=true&hide_rank=true&hide_border=true&title_color=C084FC&icon_color=A855F7&text_color=E9D5FF&bg_color=0B0613&card_width=500" />
+  <img width="49%" alt="GitHub stats" src="https://github-readme-stats-fast.vercel.app/api?username=surendar-77&show_icons=true&hide_rank=true&hide_border=true&title_color=7E22CE&icon_color=9333EA&text_color=1E1033&bg_color=FAF5FF&card_width=500" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=surendar-77&layout=compact&langs_count=8&hide_border=true&title_color=C084FC&text_color=E9D5FF&bg_color=0B0613&card_width=500" />
+  <img width="49%" alt="Top languages" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=surendar-77&layout=compact&langs_count=8&hide_border=true&title_color=7E22CE&text_color=1E1033&bg_color=FAF5FF&card_width=500" />
+</picture>
+
+</div>
 
 <p align="center">
   <img src="assets/quote.svg" width="600" alt="Quote" />
@@ -212,9 +187,13 @@
 
 <h2 align="center">⚡ Contribution Journey</h2>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/surendar-77/surendar-77/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation" />
-</p>
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/surendar-77/surendar-77/output/snake-light.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/surendar-77/surendar-77/output/snake-light.svg" />
+</picture>
+</div>
 
 ---
 

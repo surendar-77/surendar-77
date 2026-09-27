@@ -1,0 +1,31 @@
+[
+  {
+    "name": "MAAYAVAN",
+    "subtitle": "AI Medical Voice Assistant",
+    "description": "Dialect-aware voice assistant bridging patient-doctor communication: speech-to-text, dialect normalisation, symptom extraction and multilingual TTS. 85-87% keyword accuracy.",
+    "tags": ["Python", "Flask", "NLP", "TTS"]
+  },
+  {
+    "name": "UAV Fire & Smoke Prediction",
+    "subtitle": "IEEE conference paper",
+    "description": "Dual-domain framework: YOLO26 visual fire/smoke detection trained on 46,000 images plus a Random Forest risk model (89.5%) driving a four-level alert system.",
+    "tags": ["PyTorch", "YOLO", "OpenCV", "scikit-learn"]
+  },
+  {
+    "name": "AIVOA Deviation",
+    "repo": "surendar-77/aivoa-deviation",
+    "tags": ["React", "FastAPI", "LangGraph", "PostgreSQL"]
+  },
+  {
+    "name": "College Fest Platform",
+    "subtitle": "Technical Lead",
+    "description": "Full-stack event registration platform with Razorpay payments, built, deployed and run live for the college fest.",
+    "tags": ["React", "Node.js", "Razorpay"]
+  },
+  {
+    "name": "Portfolio",
+    "repo": "surendar-77/my-portfolio",
+    "description": "Personal developer portfolio website.",
+    "tags": ["TypeScript"]
+  }
+]

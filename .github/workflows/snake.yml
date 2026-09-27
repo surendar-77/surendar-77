@@ -2,7 +2,7 @@ name: Generate contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -16,13 +16,13 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Generate snake SVGs
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # First dot color is the empty cell: a visible deep purple so the whole grid reads as filled.
+          # First dot color is the empty cell: a visible purple so the whole grid reads as filled.
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#7e22ce&color_dots=#ede9fe,#d8b4fe,#c084fc,#a855f7,#7e22ce
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#e9d5ff&color_dots=#2e1065,#5b21b6,#7e22ce,#a855f7,#d8b4fe&color_background=#0b0613
+            dist/snake-light.svg?color_snake=%237e22ce&color_dots=#ede9fe,#d8b4fe,#c084fc,#a855f7,#7e22ce
+            dist/snake-dark.svg?color_snake=%23e9d5ff&color_dots=#2e1065,#5b21b6,#7e22ce,#a855f7,#d8b4fe
 
       - name: Speed up snake animation
         # snk has no speed option, so scale every animation duration (keyframe percentages stay the same).
@@ -35,5 +35,6 @@ jobs:
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "Update snake animation [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
