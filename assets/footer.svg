@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="Thanks for visiting">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a0606"/>
+      <stop offset="50%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#1a0606"/>
+    </linearGradient>
+    <style>
+      .t { font: 600 22px 'Fira Code', Consolas, 'Courier New', monospace; fill: #f3f4f6; letter-spacing: 3px; }
+      .s { font: 400 13px 'Fira Code', Consolas, monospace; fill: #9ca3af; letter-spacing: 2px; }
+      .wave { animation: drift 8s linear infinite; }
+      .dot { animation: blink 1.6s ease-in-out infinite; }
+      @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+      @keyframes blink { 0%,100% { opacity: .2; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+  <rect width="1200" height="120" rx="18" fill="url(#fbg)"/>
+  <g class="wave" fill="none" stroke="#ef4444" stroke-opacity=".35" stroke-width="2">
+    <path d="M0 95 Q75 75 150 95 T300 95 T450 95 T600 95 T750 95 T900 95 T1050 95 T1200 95 T1350 95 T1500 95 T1650 95 T1800 95"/>
+  </g>
+  <text class="t" x="600" y="50" text-anchor="middle">THANKS FOR VISITING<tspan class="dot" fill="#ef4444"> ●</tspan></text>
+  <text class="s" x="600" y="76" text-anchor="middle">LET'S BUILD SOMETHING INTELLIGENT TOGETHER</text>
+  <rect x="1" y="1" width="1198" height="118" rx="17" fill="none" stroke="#ef4444" stroke-opacity=".45" stroke-width="2"/>
+</svg>

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Surendar G K — AI/ML Developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="55%" stop-color="#0f0a0a"/>
+      <stop offset="100%" stop-color="#1a0606"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="50%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ef4444" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <style>
+      .title { font: 800 64px 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; fill: #f3f4f6; letter-spacing: 6px; }
+      .sub { font: 500 22px 'Fira Code', Consolas, 'Courier New', monospace; fill: #f87171; letter-spacing: 3px; }
+      .tag { font: 400 15px 'Fira Code', Consolas, 'Courier New', monospace; fill: #9ca3af; letter-spacing: 2px; }
+      .pulse { animation: pulse 3.2s ease-in-out infinite; transform-origin: 600px 150px; }
+      .scan { animation: scan 6s linear infinite; }
+      .fade { opacity: 0; animation: fade 1.2s ease-out forwards; }
+      .d1 { animation-delay: .2s; } .d2 { animation-delay: .6s; } .d3 { animation-delay: 1s; }
+      .node { animation: blink 2.4s ease-in-out infinite; }
+      .n2 { animation-delay: .8s; } .n3 { animation-delay: 1.6s; }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1); } 50% { opacity: 1; transform: scale(1.08); } }
+      @keyframes scan { 0% { transform: translateX(-200px); } 100% { transform: translateX(1300px); } }
+      @keyframes fade { to { opacity: 1; } }
+      @keyframes blink { 0%,100% { opacity: .25; } 50% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+  <ellipse class="pulse" cx="600" cy="150" rx="420" ry="140" fill="url(#glow)"/>
+
+  <g id="net">
+    <g stroke="#ef4444" stroke-opacity="0.35" stroke-width="1.2">
+      <line x1="70" y1="90" x2="150" y2="60"/><line x1="70" y1="90" x2="150" y2="150"/>
+      <line x1="70" y1="210" x2="150" y2="150"/><line x1="70" y1="210" x2="150" y2="240"/>
+      <line x1="150" y1="60" x2="230" y2="150"/><line x1="150" y1="150" x2="230" y2="150"/>
+      <line x1="150" y1="240" x2="230" y2="150"/>
+    </g>
+    <g fill="#ef4444">
+      <circle class="node" cx="70" cy="90" r="6"/><circle class="node n2" cx="70" cy="210" r="6"/>
+      <circle class="node n3" cx="150" cy="60" r="6"/><circle class="node" cx="150" cy="150" r="6"/>
+      <circle class="node n2" cx="150" cy="240" r="6"/><circle class="node n3" cx="230" cy="150" r="8"/>
+    </g>
+  </g>
+  <use href="#net" transform="translate(1200,0) scale(-1,1)"/>
+
+  <text class="title fade d1" x="600" y="140" text-anchor="middle">SURENDAR G K</text>
+  <rect class="fade d2" x="440" y="162" width="320" height="3" rx="1.5" fill="url(#accent)"/>
+  <text class="sub fade d2" x="600" y="204" text-anchor="middle">AI / ML DEVELOPER</text>
+  <text class="tag fade d3" x="600" y="240" text-anchor="middle">NLP  ·  COMPUTER VISION  ·  DEEP LEARNING</text>
+
+  <g class="scan"><rect x="0" y="0" width="160" height="300" fill="#ef4444" opacity="0.05"/></g>
+  <rect x="1" y="1" width="1198" height="298" rx="17" fill="none" stroke="#ef4444" stroke-opacity="0.45" stroke-width="2"/>
+</svg>
