@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate contribution animations
 
 on:
   schedule:
@@ -13,7 +13,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Generate snake SVGs
         uses: Platane/snk/svg-only@v3
@@ -25,17 +25,31 @@ jobs:
             dist/snake-light.svg?color_snake=%237e22ce&color_dots=#ede9fe,#c4b5fd,#a78bfa,#7c3aed,#c026d3
             dist/snake-dark.svg?color_snake=%23c084fc&color_dots=#2a2438,#4c1d95,#7c3aed,#a78bfa,#e879f9
 
-      - name: Speed up snake animation
-        # snk has no speed option, so scale every animation duration (keyframe percentages stay the same).
+      - name: Generate arcade game SVGs
+        uses: abozanona/pacman-contribution-graph@main
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: "pacman,galaga,breakout"
+
+      - name: Speed up snake and recolor games purple
         run: |
           sudo chown -R "$(id -u)" dist
-          perl -pi -e 's/(\d+)ms/int($1 * 0.4) . "ms"/ge' dist/*.svg
+          # snk has no speed option, so scale every animation duration (keyframe percentages stay the same).
+          perl -pi -e 's/(\d+)ms/int($1 * 0.4) . "ms"/ge' dist/snake-*.svg
+          # The games only ship GitHub's green palette; map each green level (and empty cell) to the purple one.
+          for f in dist/*-contribution-graph-dark.svg; do
+            perl -pi -e 's/#161b22/#2a2438/gi; s/#0e4429/#4c1d95/gi; s/#006d32/#7c3aed/gi; s/#26a641/#a78bfa/gi; s/#39d353/#e879f9/gi' "$f"
+          done
+          for f in $(ls dist/*-contribution-graph.svg); do
+            perl -pi -e 's/#ebedf0/#ede9fe/gi; s/#9be9a8/#c4b5fd/gi; s/#40c463/#a78bfa/gi; s/#30a14e/#7c3aed/gi; s/#216e39/#c026d3/gi' "$f"
+          done
+          ls -la dist
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "Update snake animation [skip ci]"
+          commit_message: "Update contribution animations [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

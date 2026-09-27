@@ -1,0 +1,37 @@
+name: Generate 3D contribution calendar
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/contrib3d.json"
+      - ".github/workflows/contrib3d.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/contrib3d.json
+
+      - name: Push to contrib3d branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: contrib3d
+          build_dir: profile-3d-contrib
+          commit_message: "Update 3D contribution calendar [skip ci]"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
